@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<script type='text/javascript' src='//pl16778660.trustedcpmrevenue.com/e6/1b/80/e61b80434e21195d12b6253884143ca6.js'></script>
+    <meta charset="utf-8">
+    <meta name="description" content="My description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "Lawrence Casey"
+  },
+  "headline": "World Map In R",
+  "datePublished": "2022-08-19",
+  "image": ["https://i.redd.it/o7d339i29y611.png",
+  "https://i.stack.imgur.com/vmtDo.png",
+  "https://i.stack.imgur.com/ZEYpc.png"
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lawrence Casey",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=L",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+    
+
+    <title>World Map In R</title>
+    <style>:root{--border-radius:5px;--box-shadow:2px 2px 10px;--color:#118bee;--color-accent:#118bee15;--color-bg:#fff;--color-bg-secondary:#e9e9e9;--color-secondary:#0645AD;--color-secondary-accent:#920de90b;--color-shadow:#f4f4f4;--color-text:#000;--color-text-secondary:#999;--font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--hover-brightness:1.2;--justify-important:center;--justify-normal:left;--line-height:1.5;--width-card:285px;--width-card-medium:460px;--width-card-wide:800px;--width-content:1080px}article aside{background:var(--color-secondary-accent);border-left:4px solid var(--color-secondary);padding:.01rem .8rem}body{background:var(--color-bg);color:var(--color-text);font-family:var(--font-family);line-height:var(--line-height);margin:0;overflow-x:hidden;padding:1rem 0}footer,header,main{margin:0 auto;max-width:var(--width-content);padding:0rem 1rem}hr{background-color:var(--color-bg-secondary);border:none;height:1px;margin:4rem 0}section{display:flex;flex-wrap:wrap;justify-content:var(--justify-important)}section aside{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);margin:1rem;padding:1.25rem;width:var(--width-card)}section aside:hover{box-shadow:var(--box-shadow) var(--color-bg-secondary)}section aside img{max-width:100%}[hidden]{display:none}article header,div header,main header{padding-top:0}header{text-align:var(--justify-important)}header a b,header a em,header a i,header a strong{margin-left:.5rem;margin-right:.5rem}header nav img{margin:1rem 0}section header{padding-top:0;width:100%}nav{align-items:center;display:flex;font-weight:700;justify-content:space-between;margin-bottom:7rem}nav ul{list-style:none;padding:0}nav ul li{display:inline-block;margin:0 .5rem;position:relative;text-align:left}nav ul li:hover ul{display:block}nav ul li ul{background:var(--color-bg);border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:none;height:auto;left:-2px;padding:.5rem 1rem;position:absolute;top:1.7rem;white-space:nowrap;width:auto}nav ul li ul li,nav ul li ul li a{display:block}code,samp{background-color:var(--color-accent);border-radius:var(--border-radius);color:var(--color-text);display:inline-block;margin:0 .1rem;padding:0 .5rem}details{margin:1.3rem 0}details summary{font-weight:700;cursor:pointer}h1,h2,h3,h4,h5,h6{line-height:var(--line-height)}mark{padding:.1rem}ol li,ul li{padding:.2rem 0}p{margin:.75rem 0;padding:0}pre{margin:1rem 0;max-width:var(--width-card-wide);padding:1rem 0}pre code,pre samp{display:block;max-width:var(--width-card-wide);padding:.5rem 2rem;white-space:pre-wrap}small{color:var(--color-text-secondary)}sup{background-color:var(--color-secondary);border-radius:var(--border-radius);color:var(--color-bg);font-size:xx-small;font-weight:700;margin:.2rem;padding:.2rem .3rem;position:relative;top:-2px}a{color:var(--color-secondary);display:inline-block;text-decoration:none}a:hover{filter:brightness(var(--hover-brightness));text-decoration:underline}a b,a em,a i,a strong,button{border-radius:var(--border-radius);display:inline-block;font-size:medium;font-weight:700;line-height:var(--line-height);margin:.5rem 0;padding:1rem 2rem}button{font-family:var(--font-family)}button:hover{cursor:pointer;filter:brightness(var(--hover-brightness))}a b,a strong,button{background-color:var(--color);border:2px solid var(--color);color:var(--color-bg)}a em,a i{border:2px solid var(--color);border-radius:var(--border-radius);color:var(--color);display:inline-block;padding:1rem 2rem}figure{margin:0;padding:0}figure img{max-width:100%}figure figcaption{color:var(--color-text-secondary)}button:disabled,input:disabled{background:var(--color-bg-secondary);border-color:var(--color-bg-secondary);color:var(--color-text-secondary);cursor:not-allowed}button[disabled]:hover{filter:none}form{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:block;max-width:var(--width-card-wide);min-width:var(--width-card);padding:1.5rem;text-align:var(--justify-normal)}form header{margin:1.5rem 0;padding:1.5rem 0}input,label,select,textarea{display:block;font-size:inherit;max-width:var(--width-card-wide)}input[type=checkbox],input[type=radio]{display:inline-block}input[type=checkbox]+label,input[type=radio]+label{display:inline-block;font-weight:400;position:relative;top:1px}input,select,textarea{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);margin-bottom:1rem;padding:.4rem .8rem}input[readonly],textarea[readonly]{background-color:var(--color-bg-secondary)}label{font-weight:700;margin-bottom:.2rem}table{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);border-spacing:0;display:inline-block;max-width:100%;overflow-x:auto;padding:0;white-space:nowrap}table td,table th,table tr{padding:.4rem .8rem;text-align:var(--justify-important)}table thead{background-color:var(--color);border-collapse:collapse;border-radius:var(--border-radius);color:var(--color-bg);margin:0;padding:0}table thead th:first-child{border-top-left-radius:var(--border-radius)}table thead th:last-child{border-top-right-radius:var(--border-radius)}table thead th:first-child,table tr td:first-child{text-align:var(--justify-normal)}table tr:nth-child(even){background-color:var(--color-accent)}blockquote{display:block;font-size:x-large;line-height:var(--line-height);margin:1rem auto;max-width:var(--width-card-medium);padding:1.5rem 1rem;text-align:var(--justify-important)}blockquote footer{color:var(--color-text-secondary);display:block;font-size:small;line-height:var(--line-height);padding:1.5rem 0}</style>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">World Map In R</a></h1>
+        <p></p>
+    </header>
+	<div style="text-align: center;">
+<script type="text/javascript">
+	atOptions = {
+		'key' : '4a1f1119f949a4af74d56b8a3af8b867',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplaycontent.com/4a1f1119f949a4af74d56b8a3af8b867/invoke.js"></scr' + 'ipt>');
+</script>
+</div>
+    <main>
+        
+<script type='text/javascript' src='//pl16615527.highperformancegate.com/bc/4b/37/bc4b37c18641e9460272f7649393af2a.js'></script>
+<script type='text/javascript' src='//pl17574171.highperformancegate.com/53/40/41/534041006b0ce94c042196ee3ec699b4.js'></script>
+
+<p><strong>World Map In R</strong>. The point can then be annotated over this plot using the plot () method. It contains the data to create a world map. head(map.world) It contains essentially all of the countries of the world, as well as information that&#39;s required to plot those countries as polygons. We use ggplot() function and add geom_map() layer with world data and aesthetics specifying longitude and latitude. ggplot() + geom_map( To draw this map in R, you will need the following packages: library (highcharter) library (dplyr) library (maps) As usual, you need the packages to be installed on your machine before loading them with library (). This article describes how to create an interactive World map in R using the highcharter R package. You will also learn how to create a choropleth map, in which areas are patterned in proportion to a given variable values being displayed on the map, such as population life expectancy or density. <strong>World Map In R</strong></p>
+
+<p>
+	
+	
+	<figure>
+		<img src="http://www.eladna.com/files/r_world_map.gif" alt="ELA DNA Haplogroup R" style="width: 100%; padding: 5px; background-color: grey;">
+		<figcaption>ELA DNA Haplogroup R (Howard Wise)</figcaption>
+	</figure>
+	
+	 <strong>World Map In R</strong> However, to join these two separate datasets together, we&#39;ll need the country names to be exactly the same. Maps are used in a variety of fields to express data in an appealing and interpretive way. You will also learn how to create a choropleth map, in which areas are patterned in proportion to a given variable values being displayed on the map, such as population life expectancy or density.
+</p>
+
+<h3>World maps have become so common that they have even attracted satire.</h3>
+<p>I would like to use R to generate a very basic world map with a specific set of countries filled with a red colour to indicate that they are malaria endemic countries.</p>
+
+
+
+
+	<div style="display: grid;grid-template-columns: auto auto auto; background: #eee; ">
+	    
+		    <div style="padding: 1em;">
+		        <a href="https://revolution-computing.typepad.com/.a/6a010534b1db25970b0191035099d8970c-800wi"><img src="https://revolution-computing.typepad.com/.a/6a010534b1db25970b0191035099d8970c-800wi" onerror="this.onerror=null;this.src='https://tse3.mm.bing.net/th?id=OIP.isskXlALK907DiJfy_pZPwHaEn&amp;pid=Api';" style="width:100%;margin-top: 8px;vertical-align: middle;"></a>
+		        <p>A list of R packages, by popularity (Revolutions)</p>				
+		    </div>
+	    
+		    <div style="padding: 1em;">
+		        <a href="https://statsandr.com/blog/world-map-of-visited-countries-in-r_files/world-map-in-r.png"><img src="https://statsandr.com/blog/world-map-of-visited-countries-in-r_files/world-map-in-r.png" onerror="this.onerror=null;this.src='https://tse1.mm.bing.net/th?id=OIP.aNpM99oE5BtMRRofLzLiCgHaEB&amp;pid=Api';" style="width:100%;margin-top: 8px;vertical-align: middle;"></a>
+		        <p>World map of visited countries in R - Stats and R</p>				
+		    </div>
+	    
+		    <div style="padding: 1em;">
+		        <a href="http://1.bp.blogspot.com/-6eV1ew45h5I/VVH5OiQE1tI/AAAAAAAAQ5E/4jyPKpGFs9k/s1600/Blog_Map_CO2.jpeg"><img src="http://1.bp.blogspot.com/-6eV1ew45h5I/VVH5OiQE1tI/AAAAAAAAQ5E/4jyPKpGFs9k/s1600/Blog_Map_CO2.jpeg" onerror="this.onerror=null;this.src='https://tse2.mm.bing.net/th?id=OIP.yue1o1Ywvg_-2j4TA31XTgHaDO&amp;pid=Api';" style="width:100%;margin-top: 8px;vertical-align: middle;"></a>
+		        <p>R tutorial for Spatial Statistics: Interactive maps for the web in R</p>				
+		    </div>
+	    
+	</div>
+
+	<div style="display: grid;grid-template-columns: auto auto auto; background: #eee; ">
+	    
+		    <div style="padding: 1em;">
+		        <a href="https://external-preview.redd.it/IJbrq0T5BGA-v2lwe-sopCONEyhRHc9QSuxAJxl2l_I.png?auto=webp&amp;s=eb95e313bc3e53422a47b9166d787050a77c4ddc"><img src="https://external-preview.redd.it/IJbrq0T5BGA-v2lwe-sopCONEyhRHc9QSuxAJxl2l_I.png?auto=webp&amp;s=eb95e313bc3e53422a47b9166d787050a77c4ddc" onerror="this.onerror=null;this.src='https://tse1.mm.bing.net/th?id=OIP.2zgy1uGGtdQf3v0nh_cykwHaDH&amp;pid=Api';" style="width:100%;margin-top: 8px;vertical-align: middle;"></a>
+		        <p>Map of /r/postworldpowers, where the seas have risen 100m and players ...</p>				
+		    </div>
+	    
+		    <div style="padding: 1em;">
+		        <a href="http://4.bp.blogspot.com/-jJQ0UyiokUU/UVtNwJ5cRKI/AAAAAAAAD_o/xm3_VbuolPU/s1600/ggplot_wm.png"><img src="http://4.bp.blogspot.com/-jJQ0UyiokUU/UVtNwJ5cRKI/AAAAAAAAD_o/xm3_VbuolPU/s1600/ggplot_wm.png" onerror="this.onerror=null;this.src='https://tse3.mm.bing.net/th?id=OIP.-peh9mLXYeSChiC2YWDmdgHaFG&amp;pid=Api';" style="width:100%;margin-top: 8px;vertical-align: middle;"></a>
+		        <p>Doodling with Data: R Beginners - Plotting Locations on to a World Map</p>				
+		    </div>
+	    
+		    <div style="padding: 1em;">
+		        <a href="https://i.stack.imgur.com/vmtDo.png"><img src="https://i.stack.imgur.com/vmtDo.png" onerror="this.onerror=null;this.src='https://tse3.mm.bing.net/th?id=OIP.Hsdh45eXfHcZAL2lFNdufAHaDP&amp;pid=Api';" style="width:100%;margin-top: 8px;vertical-align: middle;"></a>
+		        <p>r - Fixing maps library data for Pacific centred (0°-360° longitude ...</p>				
+		    </div>
+	    
+	</div>
+
+	<div style="display: grid;grid-template-columns: auto auto auto; background: #eee; ">
+	    
+		    <div style="padding: 1em;">
+		        <a href="https://i.stack.imgur.com/ur80R.png"><img src="https://i.stack.imgur.com/ur80R.png" onerror="this.onerror=null;this.src='https://tse3.mm.bing.net/th?id=OIP.dNrR2UpduRjJKqOxfYsqdAHaEK&amp;pid=Api';" style="width:100%;margin-top: 8px;vertical-align: middle;"></a>
+		        <p>r - Mapping the world on ggplot2 - Stack Overflow</p>				
+		    </div>
+	    
+		    <div style="padding: 1em;">
+		        <a href="https://i.stack.imgur.com/rkt3m.png"><img src="https://i.stack.imgur.com/rkt3m.png" onerror="this.onerror=null;this.src='https://tse3.mm.bing.net/th?id=OIP.wq1jD7H1KihFmPC8WUDWjwHaFt&amp;pid=Api';" style="width:100%;margin-top: 8px;vertical-align: middle;"></a>
+		        <p>r - World map with ggmap - Stack Overflow</p>				
+		    </div>
+	    
+		    <div style="padding: 1em;">
+		        <a href="https://i.redd.it/o7d339i29y611.png"><img src="https://i.redd.it/o7d339i29y611.png" onerror="this.onerror=null;this.src='https://tse4.mm.bing.net/th?id=OIP.namCobyY-Ltg1R5wIwH1XQHaD_&amp;pid=Api';" style="width:100%;margin-top: 8px;vertical-align: middle;"></a>
+		        <p>Toys R Us World Map | Draw A Topographic Map</p>				
+		    </div>
+	    
+	</div>
+
+	<div style="display: grid;grid-template-columns: auto auto auto; background: #eee; ">
+	    
+		    <div style="padding: 1em;">
+		        <a href="https://s33046.pcdn.co/wp-content/uploads/2019/07/example-for-a-shape-map.png"><img src="https://s33046.pcdn.co/wp-content/uploads/2019/07/example-for-a-shape-map.png" onerror="this.onerror=null;this.src='https://tse2.mm.bing.net/th?id=OIP.R2P6_4woek4ppsNbwyztDwHaEH&amp;pid=Api';" style="width:100%;margin-top: 8px;vertical-align: middle;"></a>
+		        <p>How to create geographic maps in Power BI using R</p>				
+		    </div>
+	    
+		    <div style="padding: 1em;">
+		        <a href="https://sarahleejane.github.io/assets/world.map.sized.plot.png"><img src="https://sarahleejane.github.io/assets/world.map.sized.plot.png" onerror="this.onerror=null;this.src='https://tse2.mm.bing.net/th?id=OIP.IyCjEnqsuFLxWQUy4YrUdQHaDv&amp;pid=Api';" style="width:100%;margin-top: 8px;vertical-align: middle;"></a>
+		        <p>plotting data points on maps with R</p>				
+		    </div>
+	    
+		    <div style="padding: 1em;">
+		        <a href="https://i.stack.imgur.com/EcF5L.png"><img src="https://i.stack.imgur.com/EcF5L.png" onerror="this.onerror=null;this.src='https://tse4.mm.bing.net/th?id=OIP.LnvjFRslJJ3q1gwh29ppCwHaD3&amp;pid=Api';" style="width:100%;margin-top: 8px;vertical-align: middle;"></a>
+		        <p>How can I plot a continents map with R? - Stack Overflow</p>				
+		    </div>
+	    
+	</div>
+
+<p><strong>World Map In R</strong> The world map we started with has a clear limitation from a historical point of view: it is based on the countries existing today, with their contemporary borders. The next thing we need to do is join the global talent data, df.global_talent (which we want to map), to the map itself, map.world. The old map legacy map is still available from the package mapdata.</p>
+<!-- Default Statcounter code for christmas2021.github.io
+https://christmas2021.github.io/ -->
+<script type="text/javascript">
+var sc_project=12681502; 
+var sc_invisible=1; 
+var sc_security="e9d93c5a"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12681502/0/e9d93c5a/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+    </main>
+    <footer style="padding-top: 50px;">
+        <center>
+            
+                <a href="index.html">Index</a>
+                
+                    |
+                
+            
+                <a href="contact.html">Contact</a>
+                
+                    |
+                
+            
+                <a href="copyright.html">Copyright</a>
+                
+                    |
+                
+            
+                <a href="dmca.html">DMCA</a>
+                
+                    |
+                
+            
+                <a href="privacy-policy.html">Privacy-Policy</a>
+                
+            
+        </center>
+    </footer>
+</body>
+<div style="text-align: center;">
+<script type="text/javascript">
+	atOptions = {
+		'key' : '4a1f1119f949a4af74d56b8a3af8b867',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplaycontent.com/4a1f1119f949a4af74d56b8a3af8b867/invoke.js"></scr' + 'ipt>');
+</script>
+</div>
+<!-- Default Statcounter code for christmas2021.github.io
+https://christmas2021.github.io/ -->
+<script type="text/javascript">
+var sc_project=12681502; 
+var sc_invisible=1; 
+var sc_security="e9d93c5a"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12681502/0/e9d93c5a/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+</html>
